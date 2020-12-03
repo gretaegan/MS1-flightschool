@@ -111,7 +111,7 @@ footer {
 
 .contact-us-form {
     margin: auto;
-    width: 200px;
+    width: 400px;
     padding-bottom: 40px;
 
 }
@@ -129,5 +129,55 @@ footer {
 .contact-list {
     padding-top: 20px;
     padding-bottom: 20px;
+
+}
+
+/*---------------------- Courses and Training */
+
+.the-fleet {
+    margin: auto;
+    text-align: center;
+    padding: 40 40 40 40;
+
+}
+
+
+.training-heading-big {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.training-heading h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-bottom: 40px;
+    padding-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}   
+
+.training-heading p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top:30px; 
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.about-image {
 
 }
