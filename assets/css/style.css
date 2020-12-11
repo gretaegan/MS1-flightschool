@@ -23,35 +23,40 @@ body {
     color: #fafafa;
 }
 
-.jumbotron {
-}
+
 
 
 /*---------------------- About Section*/
 
-.about-us-text {
-    text-align: center;
-    background: #343a40;
-    color: #fafafa;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.about-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.about-us-text h2 {
-    font-weight: 500;
-    font-size: 30px;
-    letter-spacing: 3px;
+.about-us-heading {
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.left-side-about {
     text-transform: uppercase;
-    padding-bottom: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #343a40;
 }
 
-.about-us-text p {
-    font-weight: 200;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding-bottom: 30px;
-
+hr {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(32, 180, 248);
 }
 
 /*---------------------- Footer*/
@@ -178,6 +183,4 @@ footer {
     margin-bottom: 30px;
 }
 
-.about-image {
 
-}
