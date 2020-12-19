@@ -139,48 +139,60 @@ footer {
 
 /*---------------------- Courses and Training */
 
-.the-fleet {
-    margin: auto;
-    text-align: center;
-    padding: 40 40 40 40;
+.training-sec {
+    background-color: #071337;
+    color: #fafafa;
+}
 
+.new-hr {
+    border-top: 3px solid #6497b1;
+    width: 100px;
 }
 
 
-.training-heading-big {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding-bottom: 20px;
-    padding-top: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+.training-hdg {
+ text-transform: uppercase;
+ font-family: 'Roboto',sans-serif;
+ letter-spacing: 4px;
+ font-weight: 100;
+ font-size: 28px;
+ text-align: center;
+ margin: auto;
+ padding-top: 40px;
+ padding-bottom: 40px;
 }
 
-.training-heading h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 4px;
-    padding-bottom: 40px;
-    padding-top: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;   
-}   
+.training-hdg-sm {
+ text-transform: uppercase;
+ font-family: 'Roboto',sans-serif;
+ letter-spacing: 4px;
+ font-size: 20px;
+ text-align: center;
+ margin: auto;
+padding-top: 20px;
+padding-bottom: 30px;
+}
 
-.training-heading p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 18px;
-    padding-top:30px; 
-    margin-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+.training-text {
+ font-family: 'Roboto',sans-serif;
+ letter-spacing: 2px;
+ word-spacing: 4px;
+ font-size: 14px;
+ text-align: center;
+ margin-left: 20px;
+ margin-right: 20px;
+ padding-top: 20px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+.training-image {
+    background: url("../images/firefly.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
 }
 
 
