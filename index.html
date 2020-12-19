@@ -5,26 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/e70272c2ce.js"></script>
     <link rel="stylesheet" href="assets/css/style.css"/>
     <title>Wings Flight School</title>
 </head>
 <body>
 <section>
-
- <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-  <a class="navbar-brand" href="#">Wings Flight Academy</a>
-   <button class="navbar-toggler" data-toggle="collapse" aria-label="book" data-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-       </button>
-       <div id="navMenu" class="collapse navbar-collapse">
-         <ul class="navbar-nav mr-auto">
-          <li class="nav-item mr-2"><a href="#" target="_blank">About Us</a></li>
-          <li class="nav-item mr-2"><a href="#" target="_blank">Training</a></li>
-          <li class="nav-item mr-2"><a href="#" target="_blank">Gallery</a></li>
-          <li class="nav-item mr-2"><a href="#" target="_blank">Contact</a></li>
-        </ul> 
-       </div>
- </nav>
+<header>
+navbar will go here
+</header>
 </section>
 
 <section>
@@ -84,7 +74,7 @@
  <div class="container-fluid">
   <div class="row">
    <div class="col-sm-6 training-sec">
-   <h3 class="entry-hdg"> Entry requirements for Integrated Course 2021 : </h3>
+   <h3 class="entry-hdg"> Entry requirements for 2021 : </h3>
    <hr class="new-hr">
    <p class="entry-text"> Due to the intensity and fast pace of the course, prospective students must have the following:
     <ul class="entry-list">
@@ -106,39 +96,57 @@
     <div class="container-fluid testamonial-section">
         <div class="row">
             <div class="col-sm-12">
-                <h2> See what our former cadets have to say </h2>
-            <div class="col-sm-4">
-             testamonial 1 will go here
+                <h2 class="test-heading"> See what our former cadets have to say </h2>
+                <hr class="new-hr">
             </div>
             <div class="col-sm-4">
-                testamonial 2 will go here
+                <h4><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h4>
+                <p class="test-text"> I recently completed my training at Wings and within 2 months had an offer to join Europe's biggest low cost airline flying the Boeing 737NG! 
+                    Without the expertise of the instructors and staff, this would never have been possible.<br> <i>Eugene Egan, Ryanair</i>
+                </p>
+                <hr class="new-hr">
             </div>
             <div class="col-sm-4">
-                testamonial 3 will go here
+              <h4><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h4>
+              <p class="test-text"> I went from zero flying experience to flying for my national carrier in just over 2 years! The pace of the course is very quick but the teaching is 
+                  so good that I found it easy to keep up. Within a few weeks of finishing I was beginning my type-rating on the Airbus A320. Thank you Wings!<br>
+                  <i>Emer Dunne, Aer Lingus</i>
+              </p> 
+              <hr class="new-hr">
+            </div>
+            <div class="col-sm-4">
+                <h4><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></h4>
+                <p class="test-text"> One of the biggest advantages during interviewing for jobs was having done my training with Wings. Their reputation is excellent. I've been flying the 
+                    Queen of the Skies in Hong Kong for the last 4 years and soon will go back to begin my instructor rating at Wings. <br> <i>-Cormac Meyler, Cathay Pacific</i>
+                </p> 
+                <hr class="new-hr">
             </div>
         </div>
       </div>
-    </div>
 </section>
-
-<section class="the-fleet">
- <h3>Our Fleet : </h3>
- <p> Maintained by our dedicated team of 8 Engineers, our fleet consists of :
- <ul>
-      <li> 6 Cessna 152 single-engine piston aircraft</li>
-      <li> 8 Cessna 172 single-engline piston aircraft </li>
-      <li> 2 C172RG single engine-piston, retractable landing gear and variable pitch propeller</li>
-      <li> 4 Beechcraft 76 twin-engine piston aircraft </li>
-      <li> Full-motion Boeing 737-800 simulator </li>
-  </ul>
- </p>
-</section>
-
-
 
 <section>
- <div class="container contact-background">
+    <div class="container-fluid fleet-img">
+    <div class="container container-fleet">
+        <div class="text-box-fl">
+             <h3>Our Fleet : </h3>
+              <p> Maintained by our dedicated team of 8 Engineers, our fleet consists of :
+                <ul>
+                  <li> 6 Cessna 152 single-engine piston aircraft</li>
+                  <li> 8 Cessna 172 single-engline piston aircraft </li>
+                  <li> 2 C172RG single engine-piston, retractable landing gear and variable pitch propeller</li>
+                  <li> 4 Beechcraft 76 twin-engine piston aircraft </li>
+                  <li> Full-motion Boeing 737-800 simulator </li>
+                </ul>
+              </p>
+        </div>
+    </div>
+
+
+ <div class="container">
+     <div class="contact-box">
      <h3 class="contact-header">Apply Here : </h3>
+     <hr class="new-hr">
      <p class="contact-text">Leave your details and any additional information regarding previous experience below and 
      one of our team will get back to you shortly. </p>
      <form class="contact-us-form">
@@ -159,6 +167,14 @@
          <label class="form-check-label" for="Check1">Returning Student?</label>
         </div>
      </form>
+     </div>
+    </div>
+   </div>
+</section>
+
+<section>
+    <div>
+        something will go here but Im not sure what yet
     </div>
 </section>
 
