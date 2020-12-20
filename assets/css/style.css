@@ -4,6 +4,26 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
+.navbar-custom {
+    background-color: #071337;
+}
+
+.navbar-brand {
+    color: #fafafa;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+
+.navbar-custom, .nav-link , .nav-item {
+    color: #fafafa;
+    font-size: 20px;
+    display: block;
+}
+
 /*---------------------- Hero Section*/
 
 .hero-image {
