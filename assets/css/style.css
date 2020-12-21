@@ -30,20 +30,26 @@ body {
 
 .hero-image {
     background: url("../images/hero.jpg");
-    height: 1000px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
 .container-text {
     text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
     text-align: center;
-    letter-spacing: 4px;
-    background-color: #071337;
+    letter-spacing: 8px;
     color: #fafafa;
+    float: center;
+    position: relative;
+    margin-top: 300px;
 }
+
 
 
 
@@ -59,16 +65,16 @@ body {
 .about-container {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .about-us-heading {
     box-sizing: border-box;
     max-width: 600px;
-    height: 500px;
+    height: 400px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
 }
 
@@ -81,29 +87,57 @@ body {
     color: #343a40;
 }
 
+.icon-fa {
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #00cccc;
+}
+
+.icon-text-big {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-family: 'Poppins',sans-serif;
+}
+
+.icon-text-sm {
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 20px;   
+}
+
 
 /*---------------------- Footer*/
 
 
 .social-links li {
     display: inline;
-    color: #fafafa;
-    padding: 50px;
+    color:  #00cccc;
+    padding: 60px;
 }
 
 .footer-headings {
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    letter-spacing: 5px;
+    font-size: 20px;
     padding-bottom: 30px;
     padding-top: 20px;
-    font-weight: 300;
+    font-weight: 200;
+}
+
+.footer-headings:hover {
+    color:  #00cccc;
 }
 
 
-footer {
+.footer {
     color: #fafafa;
-    background-color: #071337
+    background-color: #071337;
 }
 
 
@@ -111,6 +145,7 @@ footer {
     font-size: 15px;
     letter-spacing: 2px;
     text-align: center;
+    color:  #00cccc;
 }
 
 /*---------------------- Contact Section */
@@ -119,17 +154,13 @@ footer {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 4px;
     font-size: 30px;
     padding-bottom: 20px;
     padding-top: 40px;
     margin: auto;
 }
 
-.entry-needs {
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-}
 
 .contact-school {
    font-family: 'Poppins',sans-serif;
@@ -141,18 +172,12 @@ footer {
     padding-bottom: 40px;
 }
 
-.contact-box {
-    background-color: #071337;
-    color: #fafafa;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .contact-text {
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     padding-bottom: 30px;
     padding-top: 20px; 
     margin-top: 20px;
@@ -165,13 +190,6 @@ footer {
 
 }
 
-.fleet-img {
-    background: url("../images/sun.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-}
 
 
 /*---------------------- Courses and Training */
@@ -186,10 +204,16 @@ footer {
     width: 100px;
 }
 
+.small-hr {
+    border-top: 2px solid aqua;
+    width: 80px;
+}
+
 
 .training-hdg {
  text-transform: uppercase;
  font-family: 'Poppins',sans-serif;
+ font-weight: 200;
  letter-spacing: 4px;
  font-size: 26px;
  text-align: center;
@@ -205,6 +229,7 @@ footer {
  font-family: 'Poppins',sans-serif;
  letter-spacing: 4px;
  font-size: 20px;
+ font-weight: 100;
  text-align: center;
  margin: auto;
 padding-top: 20px;
@@ -213,6 +238,7 @@ padding-bottom: 30px;
 
 .training-text {
  font-family: 'Poppins',sans-serif;
+ font-weight: 100;
  letter-spacing: 2px;
  line-height: 1.6;
  font-size: 14px;
@@ -305,27 +331,4 @@ padding-bottom: 30px;
 }
 
 
-/*---------------------- Fleet Section */
 
-.container-fleet {
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.text-box-fl {
-    background-color: #00ffff;
-    color: #071337;
-    margin: auto;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-family: 'Poppins',sans-serif;
-    letter-spacing: 2px;
-    line-height: 1.6;
-    font-size: 14px;
-    text-align: center;
-}
