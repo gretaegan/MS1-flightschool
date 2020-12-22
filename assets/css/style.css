@@ -7,11 +7,11 @@ body {
 /*---------------------- Navbar*/
 
 .navbar-custom {
-    background-color: #071337;
+    color: #071337;
 }
 
 .navbar-brand {
-    color: #fafafa;
+    color: #071337;
     font-family: 'Poppins',sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -20,8 +20,8 @@ body {
 }
 
 
+
 .navbar-custom, .nav-link , .nav-item {
-    color: #fafafa;
     font-size: 20px;
     display: block;
 }
@@ -195,9 +195,9 @@ body {
 /*---------------------- Courses and Training */
 
 .training-sec {
-    background-color: #071337;
-    color: #fafafa;
+    color: #343a40;
 }
+
 
 .new-hr {
     border-top: 3px solid aqua;
