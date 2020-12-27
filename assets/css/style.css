@@ -6,25 +6,26 @@ body {
 
 /*---------------------- Navbar*/
 
-.navbar-custom {
-    color: #071337;
-}
-
-.navbar-brand {
-    color: #071337;
+.navbar-custom, .nav-link, .nav-item , a {
     font-family: 'Poppins',sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 25px;
     font-weight: 200;
-}
-
-
-
-.navbar-custom, .nav-link , .nav-item {
     font-size: 20px;
-    display: block;
 }
+
+.bg-custom {
+    background-color: #071337;
+}
+
+.navbar-custom, .nav-link:hover, .nav-item:hover , a:hover {
+    color: #00cccc;
+}
+
+
+.logo-img {
+    height: 60px;
+    max-width: 100%;
+}
+
 
 /*---------------------- Hero Section*/
 
@@ -74,7 +75,7 @@ body {
     max-width: 600px;
     height: 400px;
     margin: auto;
-    padding-top: 60px;
+    padding-top: 80px;
     text-align: center;
 }
 
@@ -89,7 +90,7 @@ body {
 
 .icon-fa {
     margin: auto;
-    padding-left: 100px;
+    padding-left: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #00cccc;
@@ -120,14 +121,18 @@ body {
     padding: 60px;
 }
 
+.social-icon {
+    color: #00cccc;
+}
+
 .footer-headings {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
     padding-bottom: 30px;
-    padding-top: 20px;
-    font-weight: 200;
+    padding-top: 40px;
+    font-weight: 100;
 }
 
 .footer-headings:hover {
@@ -156,8 +161,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 30px;
-    padding-bottom: 20px;
-    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-top: 80px;
     margin: auto;
 }
 
@@ -175,7 +180,7 @@ body {
 
 .contact-text {
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-align: center;
     font-size: 16px;
     padding-bottom: 30px;
@@ -194,18 +199,14 @@ body {
 
 /*---------------------- Courses and Training */
 
-.training-sec {
-    color: #343a40;
-}
-
 
 .new-hr {
-    border-top: 3px solid aqua;
+    border-top: 3px solid #00cccc;
     width: 100px;
 }
 
 .small-hr {
-    border-top: 2px solid aqua;
+    border-top: 2px solid #00cccc;
     width: 80px;
 }
 
@@ -328,6 +329,20 @@ padding-bottom: 30px;
  padding-bottom: 40px;
  padding-left: 15px;
  padding-right: 15px;
+}
+
+.stars {
+    margin-left: 200px;
+}
+
+.test-quotes {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 

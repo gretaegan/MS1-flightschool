@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <script src="https://kit.fontawesome.com/e70272c2ce.js"></script>
@@ -13,25 +13,28 @@
 <body>
 <section>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Wings Flight Training Academy</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Training</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-custom">
+        <a href="index.html" class="navbar-brand"><img class="img-responsive2 logo-img" src="assets/logo2.jpg"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+          <div id="navMenu" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+             <li class="nav-item mr-2">
+                 <a class="nav-link" href="#about-section">About Us</a>
+             </li>
+             <li class="nav-item mr-2">
+                 <a class="nav-link" href="#training">Training</a>
+             </li>
+             <li class="nav-item mr-2">
+                 <a class="nav-link" href="#testamonials">Testamonials</a>
+             </li>
+             <li class="nav-item mr-2">
+                 <a class="nav-link" href="#contact">Contact</a>
+             </li>
+           </ul>
+         </div>
+    </nav>
 </header>
 </section>
 
@@ -51,7 +54,7 @@
 
 
 <section>
-<div class="container-fluid about-container">
+<div id="about-page" class="container-fluid about-container">
  <div class="row">
      <div class="col-sm-6">
          <div class="about-us-heading">
@@ -98,7 +101,7 @@
 </section>
 
 <section>
-    <div class="container-fluid">
+    <div id="training" class="container-fluid">
         <div class="row">
             <div class="col-sm-6 training-image">
             </div>
@@ -138,31 +141,33 @@
 </section>
 
 <section>
-    <div class="container-fluid testamonial-section">
+    <div id="testamonials" class="container-fluid testamonial-section">
         <div class="row">
             <div class="col-sm-12">
                 <h2 class="test-heading"> See what our former cadets have to say </h2>
-                <hr class="new-hr">
             </div>
             <div class="col-sm-4">
-                <h4><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h4>
-                <p class="test-text"> I recently completed my training at Wings and within 2 months had an offer to join Europe's biggest low cost airline flying the Boeing 737NG! 
-                    Without the expertise of the instructors and staff, this would never have been possible.<br> <i>Eugene Egan, Ryanair</i>
+                <h4 class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h4>
+                <h5 class="test-quotes"> "Within 3 months of finishing, I have my dream job"</h5>
+                <p class="test-text"> I recently completed my training at Wings and within 3 months had an offer to join Europe's biggest low cost airline flying the Boeing 737NG! 
+                    Without the expertise of the instructors and staff, this would never have been possible.<br> <i> - Eugene Egan, Ryanair</i>
                 </p>
                 <hr class="new-hr">
             </div>
             <div class="col-sm-4">
-              <h4><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h4>
+              <h4 class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h4>
+              <h5 class="test-quotes"> "Excellent instructing helped me become a pilot in 2 years!"</h5>
               <p class="test-text"> I went from zero flying experience to flying for my national carrier in just over 2 years! The pace of the course is very quick but the teaching is 
                   so good that I found it easy to keep up. Within a few weeks of finishing I was beginning my type-rating on the Airbus A320. Thank you Wings!<br>
-                  <i>Emer Dunne, Aer Lingus</i>
+                  <i> - Emer Dunne, Aer Lingus</i>
               </p> 
               <hr class="new-hr">
             </div>
             <div class="col-sm-4">
-                <h4><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></h4>
+                <h4 class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></h4>
+                <h5 class="test-quotes">"Soon I'll begin my instrctor rating at Wings"</h5>
                 <p class="test-text"> One of the biggest advantages during interviewing for jobs was having done my training with Wings. Their reputation is excellent. I've been flying the 
-                    Queen of the Skies in Hong Kong for the last 4 years and soon will go back to begin my instructor rating at Wings. <br> <i>-Cormac Meyler, Cathay Pacific</i>
+                    Queen of the Skies in Hong Kong for the last 4 years and soon will go back to begin my instructor rating at Wings. <br> <i> - Cormac Meyler, Cathay Pacific</i>
                 </p> 
                 <hr class="new-hr">
             </div>
@@ -172,7 +177,7 @@
 
 <section>
 
- <div class="container">
+ <div id="contact" class="container">
      <h3 class="contact-header">Apply Here : </h3>
      <hr class="new-hr">
      <p class="contact-text">Leave your details and any additional information regarding previous experience below and 
@@ -203,7 +208,7 @@
 </section>
 
 
-<footer>
+<footer class="footer">
 <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4">
@@ -211,27 +216,28 @@
        <p class="school-info">Wings Flight Training Academy<br>
         Westing Airfield,<br>
         Co. Dublin<br>
+        info@wfta.ie<br>
         +12889345</p>
       </div>
        <div class="col-sm-4">
         <h3 class="footer-headings">Book a Tour</h3>
         <div class="text-center">
-        <button type="button" class="btn btn-info btn-lg footer-button">Book Now!</button>
-        </div>
+            <a href="#contact"><button type="button" class="btn btn-info btn-lg footer-button">Book Now!</button></a>
+            </div>
        </div>
         <div class="col-sm-4">
        <h3 class="footer-headings">Follow Us On Social Media</h3>
        <ul class="social-links">
-         <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-2x social-icon" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube fa-2x social-icon" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x social-icon" aria-hidden="true"></i></a></li>
        </ul>  
       </div>
     </div>
   </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
