@@ -73,6 +73,13 @@ body {
     text-align: center;
 }
 
+.about-us-text {
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 
 .icon-fa {
     margin: auto;
