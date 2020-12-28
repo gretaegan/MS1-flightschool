@@ -71,6 +71,8 @@ body {
     margin: auto;
     padding-top: 80px;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .about-us-text {
@@ -202,6 +204,10 @@ body {
     width: 80px;
 }
 
+.contact-btn {
+    color: #fafafa;
+}
+
 
 .training-hdg {
  text-transform: uppercase;
@@ -324,6 +330,7 @@ padding-bottom: 30px;
 
 .stars {
     margin-left: 200px;
+    color: #ffd700;
 }
 
 .test-quotes {
