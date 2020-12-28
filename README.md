@@ -1,45 +1,90 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Flight School
 
-Welcome gretaegan,
+link to the live site can be found here (add link here)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+My project is a website for a flight school that trains people to become commercial airline pilots. I chose this idea based on my own experiences as a pilot, and due to 
+a huge worldwide demand for pilots.
 
-## Gitpod Reminders
+## UX
+**User Stories**
+As a user of this website I want :
+1. A website that looks professional and functions.
+1. A clear explaination of what kind of training is provided by the school.
+1. Images that are relevant to the website and provide visual experience.
+1. Testamonials from previous students about the school.
+1. To be able to contact the school easily .
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Design
 
-`python3 -m http.server`
+**Typography** 
+I used the font family 'Poppins' throught the site as I felt like it provided a clean, professional feel. 
+I used uppercase text for each of my headings with letter spacing.
 
-A blue button should appear to click: *Make Public*,
+**Color Scheme** 
+I used a palate of blues - specificially navy and a teal color to convay professionalism. I also felt like this matched the color scheme of the image of the 
+aircraft  EI-FII that I used in the training section. (add in hexidecimal codes here on next commit).
 
-Another blue button should appear to click: *Open Browser*.
+**Images Used**
+All images used in this project are my own pictures that I took throughout my time in Flight school. The pictures were specifically chosen as I wanted 
+to show a range of different aircraft that the school would offer. They are a Boeing 737-800, a Salisbury Firefly and a Cessna 172RG.
+The hero image was chosen because aspiring pilots will see the image of cadets flying a jet and it will provide inspiration that it could be them if they go
+through the training.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Overall Feel**
+Overall I wanted a professional and clean feel to the website. It was important that it looked simple and clear to the user.
 
-A blue button should appear to click: *Make Public*,
+### Wireframes
 
-Another blue button should appear to click: *Open Browser*.
+will add these at another date.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Features
+Flight School is a mobile first design that is fully responsive.
+There is a data toggler on the navbar that only shows on smaller screen sizes.
 
-## Updates Since The Instructional Video
+#### Technologies Used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+HTML5
+CSS3
+Javascript
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+##### Frameworks Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Bootstrap4
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+code validators here and no issues found
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Testing User Stories
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+will add here
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Further Testing
 
---------
+third party testing will go here
+add table about people I tested my site on
+add devises that I personally tested on.
 
-Happy coding!
+## Bugs and Fixes
+
+Navbar issue and how I solved it.
+
+Form issue and how I solved it.
+
+### Deployment 
+
+Write out steps to deployment on Github pages here
+
+### Credits 
+
+Content
+Flight Schools
+Bootstrap4
+Logo
+
+### Acknowledgements 
+
+My mentor
+Slack
+CI 
+Flight schools
