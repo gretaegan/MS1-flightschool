@@ -1,6 +1,9 @@
 # Flight School
 
-My project is a website for a flight school that trains people to become commercial airline pilots. I chose this idea based on my own experience of becoming a commercial
+This website is my first Milestone Project on the Code Institute Full Stack Web Developer Course.
+
+My project is a website for a flight school that trains people to become commercial airline pilots. 
+I chose this idea based on my own experience of becoming a commercial
 pilot and my knowledge of aviation. 
  In 2019 there was a huge worldwide demand for commercial pilots and while the pandemic has paused this, it is expected that when aviation recovers the demand will be even
  greater. Pilots will need to be trained and flight schools will become valuable once again.
@@ -70,9 +73,9 @@ Currently, the form system does not function. However once I have learned Javasc
 
 ## Technologies Used
 
-*HTML5
-*CSS3
-*Javascript
+* HTML5
+* CSS3
+* Javascript
 
 ## Frameworks Used
 
@@ -114,35 +117,97 @@ The icons and text underneath provide extra clarity what this course offers in a
 *To understand the entry requirements and any barriers that may prevent me from applying to the course*
 * The Training and Entry Requirements section is clearly defined by using images and headings to draw attention. Requirements to the course are listed clearly in a list
 to prevent any confusion to the user.
+
 *To be able to contact the school easily*
 * A contact form is provided on the page, and the schools details such as address, phone number and email are clearly listed in the footer.
 
+
 ## Further Testing
 
-third party testing will go here
-add table about people I tested my site on
-add devises that I personally tested on.
+### Devices I Tested on
+*Smart Phones*
+* iPhone SE 2020
+* iPhone 8
+* iPhone X
+
+*Tablets*
+* iPad Pro 
+* Samusung Galaxy Tab S7
+* Samsung Galaxy Tab About
+
+*Laptops*
+* Macbook Air 13"
+* Dell G7 17.3"
+
+## Third Party Testing
+
+It was important to me to get feedback from potential users of this site. I asked four different people, two qualified commercial pilots, one current student
+cadet pilot and one who plans on applying to a flight school after the pandemic.
+
+Name  | Age | Pilot    | Tech BG
+------|-----|----------|--------
+Marius| 32  | Yes      | High
+Eoin  | 39  | Yes      | Medium
+Sarah | 22  | Student  | None
+Dean  | 18  | No       | High
+
+
+## Lighthouse
+
+will add here on next commit 
 
 # Bugs and Fixes
 
-Navbar issue and how I solved it.
+* There was an issue with the Navbar. It was displaying the data toggler on all screen sizes and not the links. 
+I resolved the issue by updated my Bootstrap CDN and adding the Javascript files to the bottom of my project, ahead of the closing body tag.
 
-Form issue and how I solved it.
+* There was an issue where, on smaller screen sizes, the entire body of my content was only showing on half of the screen size, with white space everywhere else.
+The problem was caused by my Bootstrap form which I had given a width to. This was resolved by removing the width I had given. 
 
-### Deployment 
 
-Write out steps to deployment on Github pages here
+# Deployment 
 
-### Credits 
+This site was deployed through GitHub Pages. The steps I took to deploy were as follows.
+1. Log into GitHub.
+1. Locate the repository.
+1. Locate the settings option along the options bar.
+1. Locate GitHub Pages options towards the bottom of the page.
+1. In 'Source' dropdown, select 'Master' from the branch options.
+1. Click the save button.
+1. The site is now published and it was accessable after a few minutes.
+1. The site URL was visable on the green bar under the section header. This will remain there permanently and it can be referred back to at any time.
 
-Content
-Flight Schools
-Bootstrap4
-Logo
+## Cloning
 
-### Acknowledgements 
+1. Log into GitHub.
+1. Locate the repository.
+1. Click the 'Code' dropdown above the file list.
+1. Copy the URL for the repository.
+1. Open Git Bash on your device.
+1. Change the current working directory to the location where you want the cloned directory.
+1. Type git clone in the CLI and then paste the URL you copied earlier. This is what it should look like:
+$ git clone https://github.com/gretaegan/MS1-flightschool.git
+1. Press Enter to create your local clone.
 
-My mentor
-Slack
-CI 
-Flight schools
+# Credits 
+
+## Content 
+* The code was mostly written by myself.
+* The images used were taken by me during my time as a student pilot in Flight School. 
+* I used Bootstrap Documentation for the code on my contact form
+ https://getbootstrap.com/docs/4.0/components/forms/ was the form provided and slightly modified by me.
+* My logo was a generic flight school logo taken from https://depositphotos.com/stock-photos/flight-school.html?filter=all and heavily edited. 
+ I used the outline of the aircraft as a stencil to create my own logo in Paint3D.
+ * 'Academind' on Youtube for his Bootstrap Navbar tutorial https://www.youtube.com/watch?v=23bpce-5s8I that I watched many times when my Navbar was 
+ not working!
+ * I referenced https://www.w3schools.com/howto/howto_css_parallax.asp for information on how to create a parallax scrolling effect with my hero image.
+ * 
+
+# Acknowledgements 
+
+* A huge thank you to my mentor, Oluwafemi Medale for all of his help, patience and wisdom throughout this project.
+* To the Slack Community for being endlessly helpful and supportive, and never laughing at my many questions!
+* To Tutor Support, who were always on hand to offer advise and help me to solve problems myself.
+* To the whole team at Code Institute for being so helpful, friendly and professional. 
+* To my friends and fellow pilots who provided valuable feedback to me on the website.
+* To my family for always supporting my goals, and listening to my endless talking about my project!
