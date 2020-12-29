@@ -87,11 +87,35 @@ Currently, the form system does not function. However once I have learned Javasc
 
 # Testing
 
-code validators here and no issues found
+I used the code validators :
+
+* HTML - https://validator.w3.org/
+* CSS - https://jigsaw.w3.org/css-validator/
+
+Each validator was used at the end of my project and throughout, whenever I had done a large amount of coding in one sitting.
 
 ## Testing User Stories
 
-will add here
+From the UX Section: 
+
+*To understand the brand at a first glance*
+* I have achieved this by using a hero image that shows two commercial pilots flying an airliner. This is the goal of the potential customers so they are 
+seeing it immediatly on using the site. 
+*The logo shows an aircraft and the color scheme exudes professionalism.
+ 
+*To understand what the product being sold is*
+* The user is immediatly greeted with the hero text 'Wings Flight Training Academy, Training Future Airline Captains Since 1967'
+This provides immediate information to the user what the website is all about.
+
+*To see information about the school provided clearly and facilities*
+* The About section is clearly displayed in a way that is easy to read and to the point. The facilities that the school offers are clearly listed.
+The icons and text underneath provide extra clarity what this course offers in an easy to read way.
+
+*To understand the entry requirements and any barriers that may prevent me from applying to the course*
+* The Training and Entry Requirements section is clearly defined by using images and headings to draw attention. Requirements to the course are listed clearly in a list
+to prevent any confusion to the user.
+*To be able to contact the school easily*
+* A contact form is provided on the page, and the schools details such as address, phone number and email are clearly listed in the footer.
 
 ## Further Testing
 
