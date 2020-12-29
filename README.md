@@ -16,7 +16,12 @@ The link to the live site can be found here https://gretaegan.github.io/MS1-flig
 # UX
 ## User Stories 
 
-As a user of this website, I want
+*Who is this website targeting?*
+This website is for people who want to train to become a commercial pilot. 
+They might have no previous flying experience or they might already have some level of training done. Either way, the site must provide information on what
+Integrated flight training is and how it is delivered.
+
+*As a user of this website, I want*
 1. To understand the brand at a first glance.
 1. To understand what the product being sold is.
 1. To see information about the training provided clearly and without having to go searching for it.
@@ -62,11 +67,10 @@ I am satisfied that this has been achieved with the color scheme, layout of the 
 will add these later.
 
 # Features
-Flight School is a mobile first design that is fully responsive on a variety of different screen sizes.
-The Navigation bar list items become hidden in a data-toggler on smaller screen sizes.
-The social media icons link to their respective websites.
-The logo in the Navbar is a link back to the beginning of the page.
-The 'Contact Us' button links the user to the contact form section.
+*Flight School is a mobile first design that is fully responsive on a variety of different screen sizes.
+*The Navigation bar list items become hidden in a data-toggler on smaller screen sizes.
+*The social media icons link to their respective websites.
+*The logo in the Navbar is a link back to the beginning of the page.
 
 ## Future Features
 Currently, the form system does not function. However once I have learned Javascript this can be made fully functional.
@@ -121,6 +125,10 @@ to prevent any confusion to the user.
 *To be able to contact the school easily*
 * A contact form is provided on the page, and the schools details such as address, phone number and email are clearly listed in the footer.
 
+*Has this website succeeded in providing clear information on Integrated Flight training to potential customers?*
+Yes it has, by displaying the information in concise, easy to read formatting and by using colors and images that are not distracting. I have not used any
+complicated jargon or abbreviations that will confuse users who have no experience in aviation. 
+
 
 ## Further Testing
 
@@ -143,6 +151,7 @@ to prevent any confusion to the user.
 
 It was important to me to get feedback from potential users of this site. I asked four different people, two qualified commercial pilots, one current student
 cadet pilot and one who plans on applying to a flight school after the pandemic.
+The following people below acted as testers for my site:
 
 Name  | Age | Pilot    | Tech BG
 ------|-----|----------|--------
