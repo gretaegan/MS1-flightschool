@@ -18,23 +18,38 @@ The link to the live site can be found here https://gretaegan.github.io/MS1-flig
 
 *Who is this website targeting?*
 This website is for people who want to train to become a commercial pilot. 
-They might have no previous flying experience or they might already have some level of training done. The site must provide information on what
-Integrated flight training is and how it is delivered in a way that is clear and informative.
+They might have no previous flying experience or they might already have some level of training done. 
+The site must provide information on what Integrated flight training is and how it is delivered in a way that is clear and informative.
 
-*As a user of this website, I want*
-1. To understand the brand at a first glance.
+*As a first-time user of this website, I want*
+1. To understand the brand at first glance.
 1. To understand what the product being sold is.
 1. To see information about the training provided clearly and without having to go searching for it.
 1. To understand the entry requirements and any barriers that may prevent me from applying to the course.
 1. To be able to contact the school easily.
+
+
+*As a returning user of this website, I want*
+1. To find the website functioning.
+1. To be able to contact the school without any issues or complications.
 
 # Design
 
 ### Images Used
 All images used in this project are my own pictures that I took throughout my time in Flight school. The pictures were specifically chosen as I wanted 
 to show a range of different aircraft that the school would offer. They are a Boeing 737-800, a Salisbury Firefly and a Cessna 172RG.
-The hero image was chosen because aspiring pilots will see the image of cadets flying a jet and it will provide inspiration that it could be them if they go
-through the training.
+
+* The Boeing 737 picture was chosen as the hero image for the site because it is an exciting photo captured as the aircraft has just taken off. 
+Potential students will see that photo and feel inspired because it shows their end goal of flying a jet in a commercial environment.
+The dark colors in the photo allow for a good contrast to the hero text over the image.
+
+* The Salisbury Firefly photo was chosen because, in the image, the cadet is standing on the wing and giving a thumbs up with a smile on her face which shows a sense
+of fun about the training. The type of aircraft and the parachute on her back also convay an exciting idea of the type of flying being done.
+The yellow color of the aircraft itself brings up the gold in the star icons.
+
+* The Cessna172RG photo was chosen to show the basic trainer aircraft of the school. The C172 is one of the most popular training aircraft and one that most flight schools
+would have, showing this on the site will make users feel trust in the school that they use this safe and popular aircraft.
+Also the blue colors in the photo match the color theme of the site well.
 
 ### Typography
 * 'Poppins' is the font used for this website, with sans-serif as the fall back. It is a clean and simple font that gives a sense of professionalism and
@@ -50,9 +65,12 @@ I used to Bootstrap grid system to provide the layout of the website and to ensu
 The navigation bar at the top of the page is fixed and, on smaller screen sizes, becomes a data toggler button to prevent cluttering the screen. 
 
 ### Colors 
-I kept to a cool palatte of blues: a dark navy (#071337) and a teal(00cccc).
-My hero-text was kept to a simple off-white color(#fafafa) so that it was still readable and grabbed attention, without distracting from the hero image of the 
+I kept to a cool palatte of blues:
+* a dark navy (#071337) and 
+* a teal(00cccc).
+My hero-text was kept to a simple off-white color(#fafafa) so that it was still readable  without distracting from the hero image of the 
 two pilots flying the Boeing737-800. 
+The horizontal rule is the teal color to add detail and attention to the headings.
 
 
 ### Overall Feel
@@ -109,6 +127,20 @@ I used the code validators :
 * CSS - https://jigsaw.w3.org/css-validator/
 
 Each validator was used at the end of my project and throughout, whenever I had done a large amount of coding in one sitting.
+
+Results :
+
+HTML-
+
+   https://validator.w3.org/nu/?doc=https%3A%2F%2Fgretaegan.github.io%2FMS1-flightschool%2F
+
+* There is one warning for not using a heading in my navigation bar section. I did not feel this was important to include.
+
+CSS-
+
+  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgretaegan.github.io%2FMS1-flightschool%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+  * The warnings are not for my own code but from Bootstraps so I will ignore them.
 
 ## Testing User Stories
 
