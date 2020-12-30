@@ -79,18 +79,19 @@ I am satisfied that this has been achieved with the color scheme, layout of the 
 
 # Wireframes
 
-* Desktop:
- https://www.figma.com/file/mJbYXkkIPlXgekMU34zQ3r/ms1-basic-structure%2C-desktop-pg1?node-id=0%3A1
+I used Figma for creating the wireframes for this project.
 
- https://www.figma.com/file/uvIGftkkyCXVL5ri3RNHYt/ABOUT-US-page-MS1-medium%2Flarge
+Desktop :
 
- https://www.figma.com/file/SYD4O6M4KoPAJ2UIHCsxUX/MS1-Home-page%3A-medium%2Flarge-view
+[Information section](https://www.figma.com/file/GvO9IeRixoGhH63vE496PH/tablet-information-page?node-id=0%3A1)
 
- * Smaller Screen :
+[Main section](https://www.figma.com/file/SYD4O6M4KoPAJ2UIHCsxUX/MS1-Home-page%3A-medium%2Flarge-view?node-id=0%3A1)
 
- https://www.figma.com/file/HFdmNhMuFdpPDjjyPZn3Iw/iphone8-ms1-version?node-id=0%3A1
+Smaller screen :
 
- https://www.figma.com/file/GvO9IeRixoGhH63vE496PH/tablet-information-page?node-id=0%3A1
+[Main section](https://www.figma.com/file/fufVYs2H13A9ZBCMLydqgY/Home-page-MS1-small-screen?node-id=0%3A1)
+
+[Main section again](https://www.figma.com/file/HFdmNhMuFdpPDjjyPZn3Iw/iphone8-ms1-version)
 
 
 
@@ -245,10 +246,10 @@ $ git clone https://github.com/gretaegan/MS1-flightschool.git
 * The code was mostly written by myself.
 * The images used were taken by me during my time as a student pilot in Flight School. 
 * I used Bootstrap Documentation for the code on my contact form
- https://getbootstrap.com/docs/4.0/components/forms/ was the form provided and slightly modified by me.
+ [Bootstrap form](https://getbootstrap.com/docs/4.0/components/forms/) was the form provided and slightly modified by me.
 * My logo was a generic flight school logo taken from https://depositphotos.com/stock-photos/flight-school.html?filter=all and heavily edited. 
  I used the outline of the aircraft as a stencil to create my own logo in Paint3D.
- * 'Academind' on Youtube for his Bootstrap Navbar tutorial https://www.youtube.com/watch?v=23bpce-5s8I that I watched many times when my Navbar was 
+ * 'Academind' on Youtube for his Bootstrap Navbar tutorial [here](https://www.youtube.com/watch?v=23bpce-5s8I) that I watched many times when my Navbar was 
  not working!
  * I referenced https://www.w3schools.com/howto/howto_css_parallax.asp for information on how to create a parallax scrolling effect with my hero image.
  
