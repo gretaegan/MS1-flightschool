@@ -18,8 +18,8 @@ The link to the live site can be found here https://gretaegan.github.io/MS1-flig
 
 *Who is this website targeting?*
 This website is for people who want to train to become a commercial pilot. 
-They might have no previous flying experience or they might already have some level of training done. Either way, the site must provide information on what
-Integrated flight training is and how it is delivered.
+They might have no previous flying experience or they might already have some level of training done. The site must provide information on what
+Integrated flight training is and how it is delivered in a way that is clear and informative.
 
 *As a user of this website, I want*
 1. To understand the brand at a first glance.
@@ -35,9 +35,6 @@ All images used in this project are my own pictures that I took throughout my ti
 to show a range of different aircraft that the school would offer. They are a Boeing 737-800, a Salisbury Firefly and a Cessna 172RG.
 The hero image was chosen because aspiring pilots will see the image of cadets flying a jet and it will provide inspiration that it could be them if they go
 through the training.
-![Salisbury Firefly](/assets/firefly.jpeg)
-![Cessna172RG](assets/fii.jpeg)
-![Boeing737](assets/hero.jpeg)
 
 ### Typography
 * 'Poppins' is the font used for this website, with sans-serif as the fall back. It is a clean and simple font that gives a sense of professionalism and
@@ -64,7 +61,20 @@ I am satisfied that this has been achieved with the color scheme, layout of the 
 
 # Wireframes
 
-will add these later.
+* Desktop:
+ https://www.figma.com/file/mJbYXkkIPlXgekMU34zQ3r/ms1-basic-structure%2C-desktop-pg1?node-id=0%3A1
+
+ https://www.figma.com/file/uvIGftkkyCXVL5ri3RNHYt/ABOUT-US-page-MS1-medium%2Flarge
+
+ https://www.figma.com/file/SYD4O6M4KoPAJ2UIHCsxUX/MS1-Home-page%3A-medium%2Flarge-view
+
+ * Smaller Screen :
+
+ https://www.figma.com/file/HFdmNhMuFdpPDjjyPZn3Iw/iphone8-ms1-version?node-id=0%3A1
+
+ https://www.figma.com/file/GvO9IeRixoGhH63vE496PH/tablet-information-page?node-id=0%3A1
+
+
 
 # Features
 *Flight School is a mobile first design that is fully responsive on a variety of different screen sizes.
@@ -79,7 +89,6 @@ Currently, the form system does not function. However once I have learned Javasc
 
 * HTML5
 * CSS3
-* Javascript
 
 ## Frameworks Used
 
@@ -210,7 +219,7 @@ $ git clone https://github.com/gretaegan/MS1-flightschool.git
  * 'Academind' on Youtube for his Bootstrap Navbar tutorial https://www.youtube.com/watch?v=23bpce-5s8I that I watched many times when my Navbar was 
  not working!
  * I referenced https://www.w3schools.com/howto/howto_css_parallax.asp for information on how to create a parallax scrolling effect with my hero image.
- * 
+ 
 
 # Acknowledgements 
 
