@@ -172,12 +172,18 @@ Dean  | 18  | No       | High
 
 ## Lighthouse
 
-will add here on next commit 
+I used Lighthouse to check the performance of my website and am happy with the result. 
+
+file:///C:/Users/greta/Pictures/Lighthouse%20report.pdf
+
+* The social media links have been deemed unsafe in my Best Practises report, however I am happy to leave this
+as this website is only for the purposes of the Code Institute Project.
 
 # Bugs and Fixes
 
 * There was an issue with the Navbar. It was displaying the data toggler on all screen sizes and not the links. 
 I resolved the issue by updated my Bootstrap CDN and adding the Javascript files to the bottom of my project, ahead of the closing body tag.
+This solved the problem and now my data toggler is only appearing on the smaller screen size.
 
 * There was an issue where, on smaller screen sizes, the entire body of my content was only showing on half of the screen size, with white space everywhere else.
 The problem was caused by my Bootstrap form which I had given a width to. This was resolved by removing the width I had given. 
@@ -193,7 +199,7 @@ This site was deployed through GitHub Pages. The steps I took to deploy were as 
 1. In 'Source' dropdown, select 'Master' from the branch options.
 1. Click the save button.
 1. The site is now published and it was accessable after a few minutes.
-1. The site URL was visable on the green bar under the section header. This will remain there permanently and it can be referred back to at any time.
+1. The site URL is visable on the green bar under the section header. This will remain there permanently and it can be referred back to at any time.
 
 ## Cloning
 
@@ -227,5 +233,5 @@ $ git clone https://github.com/gretaegan/MS1-flightschool.git
 * To the Slack Community for being endlessly helpful and supportive, and never laughing at my many questions!
 * To Tutor Support, who were always on hand to offer advise and help me to solve problems myself.
 * To the whole team at Code Institute for being so helpful, friendly and professional. 
-* To my friends and fellow pilots who provided valuable feedback to me on the website.
-* To my family for always supporting my goals, and listening to my endless talking about my project!
+* To my friends and fellow pilots who provided valuable feedback to me about the website.
+* To my family for always supporting my goals, and listening to my endless talking about coding!
