@@ -9,7 +9,7 @@ pilot and my knowledge of aviation.
  greater. Pilots will need to be trained and flight schools will become valuable once again.
  This flight school provides the Integrated style of training, which is favored by most airlines around the world. 
 
-The link to the live site can be found here https://gretaegan.github.io/MS1-flightschool/
+The link to the live site can be found [here](https://gretaegan.github.io/MS1-flightschool/)
 
 (will insert picture of mock ups here)
 
@@ -128,17 +128,11 @@ I used the code validators :
 
 Each validator was used at the end of my project and throughout, whenever I had done a large amount of coding in one sitting.
 
-Results :
-
-HTML-
-
-   https://validator.w3.org/nu/?doc=https%3A%2F%2Fgretaegan.github.io%2FMS1-flightschool%2F
+[HTML Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgretaegan.github.io%2FMS1-flightschool%2F)
 
 * There is one warning for not using a heading in my navigation bar section. I did not feel this was important to include.
 
-CSS-
-
-  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgretaegan.github.io%2FMS1-flightschool%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+[CSS Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgretaegan.github.io%2FMS1-flightschool%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
   * The warnings are not for my own code but from Bootstraps so I will ignore them.
 
@@ -206,7 +200,7 @@ Dean  | 18  | No       | High
 
 I used Lighthouse to check the performance of my website and am happy with the result. 
 
-file:///C:/Users/greta/Pictures/Lighthouse%20report.pdf
+[Results](https://i.imgur.com/psJdPtY.png)
 
 * The social media links have been deemed unsafe in my Best Practises report, however I am happy to leave this
 as this website is only for the purposes of the Code Institute Project.
