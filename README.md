@@ -22,10 +22,15 @@ They might have no previous flying experience or they might already have some le
 The site must provide information on what Integrated flight training is and how it is delivered in a way that is clear and informative.
 
 *As a first-time user of this website, I want*
+
 1. To understand the brand at first glance.
+
 1. To understand what the product being sold is.
+
 1. To see information about the training provided clearly and without having to go searching for it.
+
 1. To understand the entry requirements and any barriers that may prevent me from applying to the course.
+
 1. To be able to contact the school easily.
 
 
@@ -59,21 +64,39 @@ I used a custom horizontal rule under the headings to add attention
 and draw the eye.
 
 ### Layout
-The website is a simple, single scrolling page design that contains links to the different sections of the page.
-My intention was to keep the website as simple and clear as possible. 
-I used to Bootstrap grid system to provide the layout of the website and to ensure responsiveness.
-The navigation bar at the top of the page is fixed and, on smaller screen sizes, becomes a data toggler button to prevent cluttering the screen. 
+
+* The website is a simple, single scrolling page design that contains links to the different sections of the page.
+  My intention was to keep the website as simple and clear as possible. 
+
+* I used to Bootstrap grid system to provide the layout of the website and to ensure responsiveness.
+
+* The navigation bar at the top of the page is fixed and, on smaller screen sizes, becomes a data toggler button to prevent cluttering the screen. 
+
+* The About Us section is straightforward and the first key piece of information text on the page. It clearly describes the school and its facilities. I have used
+  icons and headings to provide simple and clear information.
+
+* The Training and Requirements section is set beside two images showing the aircraft the school offer. The information provided describes to the user what Integrated 
+  Flight training is and what you need to apply to the course.
+
+* The Testamonials section is set against a navy background to add interest and style to the page. I have used 3 graduates stories and addded what airline they now fly
+  for to motivate and inspire the user.
+
+* The Contact section is a simple Bootstrap contact form with instructions to leave a message with any relevant information and the team will respond shortly.
 
 ### Colors 
-I kept to a cool palatte of blues:
-* a dark navy (#071337) and 
-* a teal(00cccc).
-My hero-text was kept to a simple off-white color(#fafafa) so that it was still readable  without distracting from the hero image of the 
-two pilots flying the Boeing737-800. 
-The horizontal rule is the teal color to add detail and attention to the headings.
+* I kept to a cool palatte of blues:
+
+  -a dark navy (#071337) and 
+-a teal(00cccc).
+
+* My hero-text was kept to a simple off-white color(#fafafa) so that it was still readable  without distracting from the hero image of the 
+  two pilots flying the Boeing737-800. 
+
+* The horizontal rule is the teal color to add detail and attention to the headings.
 
 
 ### Overall Feel
+
 The most important thing was that the website conveyed professionalism as it is what you would want and expect from a company that trains pilots.
 I am satisfied that this has been achieved with the color scheme, layout of the website and images I have chosen to use.
 
@@ -102,6 +125,7 @@ Smaller screen :
 
 
 # Features
+
 * Flight School is a mobile first design that is fully responsive on a variety of different screen sizes.
 
 * The Navigation bar list items become hidden in a data-toggler on smaller screen sizes.
@@ -111,6 +135,7 @@ Smaller screen :
 * The logo in the Navbar is a link back to the beginning of the page.
 
 ## Future Features
+
 Currently, the form system does not function. However once I have learned Javascript this can be made fully functional.
 
 ## Technologies Used
@@ -151,26 +176,32 @@ Each validator was used at the end of my project and throughout, whenever I had 
 From the UX Section: 
 
 *To understand the brand at a first glance*
+
 * I have achieved this by using a hero image that shows two commercial pilots flying an airliner. This is the goal of the potential customers so they are 
 seeing it immediatly on using the site. 
 *The logo shows an aircraft and the color scheme exudes professionalism.
  
 *To understand what the product being sold is*
+
 * The user is immediatly greeted with the hero text 'Wings Flight Training Academy, Training Future Airline Captains Since 1967'
 This provides immediate information to the user what the website is all about.
 
 *To see information about the school provided clearly and facilities*
+
 * The About section is clearly displayed in a way that is easy to read and to the point. The facilities that the school offers are clearly listed.
 The icons and text underneath provide extra clarity what this course offers in an easy to read way.
 
 *To understand the entry requirements and any barriers that may prevent me from applying to the course*
+
 * The Training and Entry Requirements section is clearly defined by using images and headings to draw attention. Requirements to the course are listed clearly in a list
 to prevent any confusion to the user.
 
 *To be able to contact the school easily*
+
 * A contact form is provided on the page, and the schools details such as address, phone number and email are clearly listed in the footer.
 
 *Has this website succeeded in providing clear information on Integrated Flight training to potential customers?*
+
 Yes it has, by displaying the information in concise, easy to read formatting and by using colors and images that are not distracting. I have not used any
 complicated jargon or abbreviations that will confuse users who have no experience in aviation. 
 
@@ -252,6 +283,7 @@ $ git clone https://github.com/gretaegan/MS1-flightschool.git
 # Credits 
 
 ## Content 
+
 * The code was mostly written by myself.
 * The images used were taken by me during my time as a student pilot in Flight School. 
 * I used Bootstrap Documentation for the code on my contact form
