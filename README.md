@@ -43,7 +43,7 @@ to show a range of different aircraft that the school would offer. They are a Bo
 Potential students will see that photo and feel inspired because it shows their end goal of flying a jet in a commercial environment.
 The dark colors in the photo allow for a good contrast to the hero text over the image.
 
-* The Salisbury Firefly photo was chosen because, in the image, the cadet is standing on the wing and giving a thumbs up with a smile on her face which shows a sense
+* The Slingsby Firefly photo was chosen because, in the image, the cadet is standing on the wing and giving a thumbs up with a smile on her face which shows a sense
 of fun about the training. The type of aircraft and the parachute on her back also convay an exciting idea of the type of flying being done.
 The yellow color of the aircraft itself brings up the gold in the star icons.
 
@@ -87,19 +87,28 @@ Desktop :
 
 [Main section](https://www.figma.com/file/SYD4O6M4KoPAJ2UIHCsxUX/MS1-Home-page%3A-medium%2Flarge-view?node-id=0%3A1)
 
+[Contact section](https://www.figma.com/file/K0HmPb8p6JAWcNOU4YNaE1/Contact-form-Desktop?node-id=0%3A1)
+
 Smaller screen :
 
 [Main section](https://www.figma.com/file/fufVYs2H13A9ZBCMLydqgY/Home-page-MS1-small-screen?node-id=0%3A1)
 
 [Main section again](https://www.figma.com/file/HFdmNhMuFdpPDjjyPZn3Iw/iphone8-ms1-version)
 
+[Contact section](https://www.figma.com/file/rWeeyzqwRXXaKo8qTRxVHT/Contact--small-screen?node-id=0%3A1)
+
+[Training section](https://www.figma.com/file/OI0VyuWUyKWZ96yMI0yAjz/Training-info-small-screen?node-id=0%3A1)
+
 
 
 # Features
-*Flight School is a mobile first design that is fully responsive on a variety of different screen sizes.
-*The Navigation bar list items become hidden in a data-toggler on smaller screen sizes.
-*The social media icons link to their respective websites.
-*The logo in the Navbar is a link back to the beginning of the page.
+* Flight School is a mobile first design that is fully responsive on a variety of different screen sizes.
+
+* The Navigation bar list items become hidden in a data-toggler on smaller screen sizes.
+
+* The social media icons link to their respective websites.
+
+* The logo in the Navbar is a link back to the beginning of the page.
 
 ## Future Features
 Currently, the form system does not function. However once I have learned Javascript this can be made fully functional.
