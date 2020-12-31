@@ -11,12 +11,12 @@ pilot and my knowledge of aviation.
 
 The link to the live site can be found [here](https://gretaegan.github.io/MS1-flightschool/)
 
-(will insert picture of mock ups here)
 
 # UX
 ## User Stories 
 
 *Who is this website targeting?*
+
 This website is for people who want to train to become a commercial pilot. 
 They might have no previous flying experience or they might already have some level of training done. 
 The site must provide information on what Integrated flight training is and how it is delivered in a way that is clear and informative.
@@ -35,14 +35,22 @@ The site must provide information on what Integrated flight training is and how 
 
 
 *As a returning user of this website, I want*
+
 1. To find the website functioning.
+
 1. To be able to contact the school without any issues or complications.
+
+*As the business owner, I want*
+
+1. A website that showcases my product and inspires trust in it. 
+
+1. For users to be able to contact me without any problems. 
 
 # Design
 
 ### Images Used
 All images used in this project are my own pictures that I took throughout my time in Flight school. The pictures were specifically chosen as I wanted 
-to show a range of different aircraft that the school would offer. They are a Boeing 737-800, a Salisbury Firefly and a Cessna 172RG.
+to show a range of different aircraft that the school would offer. They are a Boeing 737-800, a Slingsby Firefly and a Cessna 172RG.
 
 * The Boeing 737 picture was chosen as the hero image for the site because it is an exciting photo captured as the aircraft has just taken off. 
 Potential students will see that photo and feel inspired because it shows their end goal of flying a jet in a commercial environment.
@@ -57,8 +65,10 @@ would have, showing this on the site will make users feel trust in the school th
 Also the blue colors in the photo match the color theme of the site well.
 
 ### Typography
+
 * 'Poppins' is the font used for this website, with sans-serif as the fall back. It is a clean and simple font that gives a sense of professionalism and
 readability.
+
 * All headings are in Uppercase with letter spacing to make them stand out and grab attention. 
 I used a custom horizontal rule under the headings to add attention
 and draw the eye.
@@ -84,6 +94,7 @@ and draw the eye.
 * The Contact section is a simple Bootstrap contact form with instructions to leave a message with any relevant information and the team will respond shortly.
 
 ### Colors 
+
 * I kept to a cool palatte of blues:
 
   -a dark navy (#071337) and 
@@ -205,21 +216,28 @@ to prevent any confusion to the user.
 Yes it has, by displaying the information in concise, easy to read formatting and by using colors and images that are not distracting. I have not used any
 complicated jargon or abbreviations that will confuse users who have no experience in aviation. 
 
+*As a business owner, am I satsified that the website inspires trust in my product?*
+
+Yes, by proividing informaton clearly and straight to the point, and by using a professional and calm color scheme. 
 
 ## Further Testing
 
 ### Devices I Tested on
+
 *Smart Phones*
+
 * iPhone SE 2020
 * iPhone 8
 * iPhone X
 
 *Tablets*
+
 * iPad Pro 
 * Samusung Galaxy Tab S7
 * Samsung Galaxy Tab About
 
 *Laptops*
+
 * Macbook Air 13"
 * Dell G7 17.3"
 
@@ -292,7 +310,7 @@ $ git clone https://github.com/gretaegan/MS1-flightschool.git
  I used the outline of the aircraft as a stencil to create my own logo in Paint3D.
  * 'Academind' on Youtube for his Bootstrap Navbar tutorial [here](https://www.youtube.com/watch?v=23bpce-5s8I) that I watched many times when my Navbar was 
  not working!
- * I referenced https://www.w3schools.com/howto/howto_css_parallax.asp for information on how to create a parallax scrolling effect with my hero image.
+ * I referenced [W3schools](https://www.w3schools.com/howto/howto_css_parallax.asp) for information on how to create a parallax scrolling effect with my hero image.
  
 
 # Acknowledgements 
